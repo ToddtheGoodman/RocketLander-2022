@@ -19,6 +19,7 @@ public class Hazard : MonoBehaviour
     void OnCollisionEnter(Collision other)
     {
         Destroy(other.gameObject);
+        // take the players transform and set to new coordinates
     }
 
 }
